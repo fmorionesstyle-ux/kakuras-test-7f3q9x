@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>【テスト】【オーダーメイド受付】フェイクグリーンの制作・ご相談 | KAKURAS</title>
+<style>
+:root{
+  --bg:#fff; --fg:#333; --sub:#777; --line:#e3e3e3; --ph:#f1f1ee; --ph-line:#bdbdb4;
+  --accent:#4a6b47; --btn-fg:#fff; --tape:#ffd23f; --tape-fg:#222;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#1b1d1a;--fg:#e8e8e2;--sub:#a3a39a;--line:#3a3d37;--ph:#262822;--ph-line:#5a5d53;--accent:#9cc297;--btn-fg:#14160f}
+}
+:root[data-theme="dark"]{--bg:#1b1d1a;--fg:#e8e8e2;--sub:#a3a39a;--line:#3a3d37;--ph:#262822;--ph-line:#5a5d53;--accent:#9cc297;--btn-fg:#14160f}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+  font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;line-height:1.9;font-size:15px}
+a{color:inherit}
+.testbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--tape);color:var(--tape-fg);
+  text-align:center;font-weight:700;font-size:13px;padding:6px 12px}
+.wm{position:fixed;inset:0;pointer-events:none;display:flex;align-items:center;justify-content:center;
+  font-size:min(36vw,300px);font-weight:900;color:rgba(200,60,40,.06);transform:rotate(-18deg);z-index:10}
+
+/* STORES風ヘッダー */
+.hd{text-align:center;padding:28px 16px 12px}
+.hd h1{margin:0;font-size:18px;font-weight:700;letter-spacing:.08em}
+.hd h1 small{display:block;font-size:11px;font-weight:400;color:var(--sub);letter-spacing:.05em;margin-top:2px}
+.nav{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 26px;padding:12px 16px 18px;
+  border-bottom:1px solid var(--line);font-size:13px}
+.nav a{text-decoration:none}
+.nav a.on{border-bottom:2px solid var(--accent);color:var(--accent);font-weight:700}
+
+/* 記事 */
+main{max-width:874px;margin:0 auto;padding:36px 16px 56px}
+.label{font-size:13px;color:var(--sub);margin:0 0 6px}
+h2.title{font-size:22px;line-height:1.6;margin:0 0 20px;padding-bottom:14px;border-bottom:1px solid var(--line)}
+.ph{width:100%;aspect-ratio:3/2;background:var(--ph);border:1px dashed var(--ph-line);margin:20px 0;
+  display:flex;align-items:center;justify-content:center;color:var(--sub);font-size:13px;text-align:center;padding:12px}
+.ph.wide{aspect-ratio:16/9}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.row2 .ph{margin:20px 0 0}
+h3{font-size:17px;margin:44px 0 8px;padding-left:10px;border-left:4px solid var(--accent)}
+p{margin:0 0 14px}
+.box{border:1px solid var(--line);padding:16px 18px;margin:16px 0}
+.box b{display:block;margin-bottom:4px}
+ol.flow{margin:0 0 14px;padding-left:1.4em}
+ol.flow li{margin-bottom:8px}
+table{width:100%;border-collapse:collapse;font-size:14px;margin:8px 0 6px}
+th,td{border:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top}
+th{width:34%;background:var(--ph);font-weight:700}
+.small{font-size:12.5px;color:var(--sub)}
+.cta{text-align:center;margin:28px 0 8px}
+.btn{display:block;max-width:420px;margin:0 auto 12px;background:var(--accent);color:var(--btn-fg);
+  text-decoration:none;font-weight:700;padding:14px 16px;border-radius:4px;text-align:center}
+.btn.line{background:transparent;color:var(--accent);border:2px solid var(--accent)}
+.btn:hover{opacity:.85}
+.back{margin-top:40px;text-align:center;font-size:13px}
+
+/* フッター */
+footer{border-top:1px solid var(--line);padding:24px 16px 32px;text-align:center;font-size:12px;color:var(--sub)}
+footer nav{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 20px;margin-bottom:12px}
+footer a{text-decoration:none}
+
+@media(max-width:600px){
+  .row2{grid-template-columns:1fr}
+  h2.title{font-size:19px}
+  th{width:38%}
+}
+.im{width:100%;aspect-ratio:3/2;margin:20px 0;border:1px solid var(--line);overflow:hidden}
+.im.wide{aspect-ratio:16/9}.row2 .im{margin:20px 0 0}
+.im svg{display:block;width:100%;height:100%}
+#form{scroll-margin-top:60px;margin-top:44px;border:2px solid var(--accent);padding:22px 18px}
+#form h3{margin-top:0}
+.f{margin-bottom:16px}.f>label,.f>.lg{display:block;font-weight:700;font-size:14px;margin-bottom:4px}
+.req{color:#c4452d;font-size:11px;margin-left:6px}
+.f input[type=text],.f input[type=email],.f input[type=tel],.f input[type=number],.f select,.f textarea{
+ width:100%;padding:10px;border:1px solid var(--ph-line);border-radius:3px;font:inherit;background:var(--bg);color:var(--fg)}
+.f textarea{min-height:110px}.f2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.chk label{font-weight:400;margin-right:16px;display:inline-block}
+.sz{display:flex;align-items:center;gap:6px;flex-wrap:wrap}.sz input{width:90px!important}
+.err{color:#c4452d;font-size:13px;min-height:1.4em;margin:6px 0 0}
+#pv{display:none;margin-top:20px;border:1px solid var(--line);padding:16px;background:var(--ph)}
+#pv.on{display:block}#pv dl{margin:0;display:grid;grid-template-columns:9em 1fr;gap:4px 12px;font-size:14px}
+#pv dt{font-weight:700}#pv dd{margin:0;white-space:pre-wrap}
+@media(max-width:600px){.f2{grid-template-columns:1fr}#pv dl{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="bush" viewBox="0 0 120 100">
+<ellipse cx="60" cy="55" rx="9" ry="40" transform="rotate(-52 60 95)" fill-opacity=".7"/>
+<ellipse cx="60" cy="55" rx="9" ry="40" transform="rotate(52 60 95)" fill-opacity=".7"/>
+<ellipse cx="60" cy="55" rx="10" ry="42" transform="rotate(-28 60 95)"/>
+<ellipse cx="60" cy="55" rx="10" ry="42" transform="rotate(28 60 95)"/>
+<ellipse cx="60" cy="52" rx="11" ry="46"/>
+</symbol></defs></svg>
+<div class="testbar">【テスト用ページ】STORESの「お知らせ」記事風の見た目確認です。リンクは動作しません。</div>
+<div class="wm" aria-hidden="true">TEST</div>
+
+<header class="hd">
+  <h1>KAKURAS<small>インテリア・フェイクグリーン専門オンラインショップ（テスト表示）</small></h1>
+</header>
+<nav class="nav" aria-label="サイトメニュー">
+  <a href="#">ホーム</a>
+  <a href="#">会社概要</a>
+  <a href="#">商品カテゴリー</a>
+  <a href="#" class="on">お知らせ</a>
+  <a href="#">よくあるご質問</a>
+</nav>
+
+<main>
+  <p class="label">2026/10/08</p>
+  <h2 class="title">【オーダーメイド受付】お店・オフィスに合わせたフェイクグリーンを制作します</h2>
+
+  <div class="im wide"><svg viewBox="0 0 800 450" role="img" aria-label="オフィスのエントランスに飾ったフェイクグリーンのサンプルイラスト（テスト用）">
+<rect width="800" height="450" fill="#eeebe3"/><rect y="340" width="800" height="110" fill="#d8d0c0"/>
+<rect x="150" y="60" width="500" height="220" fill="#fbfaf6" stroke="#8a6a4a" stroke-width="10"/>
+<g fill="#3f5a3c"><use href="#bush" x="170" y="120" width="130" height="150"/><use href="#bush" x="290" y="95" width="150" height="175" fill="#4f7049"/><use href="#bush" x="430" y="110" width="140" height="160"/><use href="#bush" x="525" y="150" width="110" height="120" fill="#5d7f55"/></g>
+<rect x="230" y="300" width="340" height="60" rx="4" fill="#b99a74"/><rect x="230" y="296" width="340" height="10" fill="#9a7c58"/>
+<path d="M690 400l12-70h56l12 70z" fill="#cfc6b4"/><g fill="#456644"><use href="#bush" x="665" y="230" width="130" height="150"/></g>
+<rect x="10" y="10" width="190" height="26" rx="4" fill="#ffd23f"/><text x="105" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#222" font-family="sans-serif">SAMPLE／テスト用イラスト</text></svg></div>
+
+  <p>飾るスペースのサイズや、お店・オフィスの雰囲気に合わせて、フェイクグリーンをオーダーメイドで制作しています。<br>
+  「壁の幅にぴったり合うものがほしい」「受付に季節感のあるグリーンを置きたい」「記念のギフトにしたい」など、どんなご相談でもお気軽にお寄せください。</p>
+  <p>フェイクグリーンなので水やりや剪定は不要。いつまでも美しい緑を保てます。</p>
+
+  <div class="row2">
+<div class="im sq"><svg viewBox="0 0 600 400" role="img" aria-label="棚に置いた置き型フェイクグリーンのサンプルイラスト（テスト用）">
+<rect width="600" height="400" fill="#efece4"/><rect x="60" y="270" width="480" height="16" fill="#9a7c58"/><rect x="90" y="286" width="12" height="90" fill="#9a7c58"/><rect x="498" y="286" width="12" height="90" fill="#9a7c58"/>
+<path d="M230 270l14-70h112l14 70z" fill="#d9d2c3"/><g fill="#3f5a3c"><use href="#bush" x="205" y="70" width="190" height="200"/></g>
+<path d="M400 270l8-44h60l8 44z" fill="#c4b79f"/><g fill="#5d7f55"><use href="#bush" x="395" y="150" width="90" height="85"/></g>
+<rect x="10" y="10" width="190" height="26" rx="4" fill="#ffd23f"/><text x="105" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#222" font-family="sans-serif">SAMPLE／テスト用イラスト</text></svg></div>
+<div class="im sq"><svg viewBox="0 0 600 400" role="img" aria-label="お引き渡し用ギフトアレンジのサンプルイラスト（テスト用）">
+<rect width="600" height="400" fill="#f2ede6"/><ellipse cx="300" cy="352" rx="190" ry="20" fill="#e0d7c6"/>
+<path d="M170 210h260l-20 140H190z" fill="#c9a97e"/><path d="M170 210h260v26H170z" fill="#b08a5c"/>
+<g fill="#3f5a3c"><use href="#bush" x="190" y="50" width="220" height="190"/></g><g fill="#5d7f55"><use href="#bush" x="150" y="120" width="130" height="110"/><use href="#bush" x="320" y="120" width="130" height="110"/></g>
+<path d="M300 262l-36-26v52zM300 262l36-26v52z" fill="#b3402a"/><circle cx="300" cy="262" r="9" fill="#8f2f1f"/>
+<text x="300" y="330" text-anchor="middle" font-size="17" fill="#fff" font-family="sans-serif">お引き渡し用（テスト）</text>
+<rect x="10" y="10" width="190" height="26" rx="4" fill="#ffd23f"/><text x="105" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#222" font-family="sans-serif">SAMPLE／テスト用イラスト</text></svg></div></div>
+
+  <h3>こんなご相談をお受けしています</h3>
+  <p>・店舗やオフィスの壁・受付・棚に合わせたサイズ指定のグリーン<br>
+  ・ロゴや内装のカラーに合わせた色味のご提案<br>
+  ・新築・開業・周年などの記念ギフト<br>
+  ・複数台をそろえたい法人様のまとめ制作</p>
+
+  <h3>納品事例</h3>
+  <div class="im"><svg viewBox="0 0 600 400" role="img" aria-label="納品事例のサンプルイラスト（テスト用）">
+<rect width="600" height="400" fill="#eeebe3"/><rect y="300" width="600" height="100" fill="#d8d0c0"/>
+<rect x="60" y="50" width="480" height="200" fill="#fbfaf6" stroke="#8a6a4a" stroke-width="9"/>
+<g fill="#3f5a3c"><use href="#bush" x="75" y="110" width="110" height="130"/><use href="#bush" x="170" y="80" width="130" height="155" fill="#4f7049"/><use href="#bush" x="290" y="95" width="130" height="145"/><use href="#bush" x="395" y="80" width="130" height="155" fill="#5d7f55"/></g>
+<rect x="190" y="268" width="220" height="14" rx="3" fill="#b99a74"/><rect x="205" y="282" width="10" height="34" fill="#9a7c58"/><rect x="385" y="282" width="10" height="34" fill="#9a7c58"/>
+<rect x="10" y="10" width="190" height="26" rx="4" fill="#ffd23f"/><text x="105" y="28" text-anchor="middle" font-size="13" font-weight="700" fill="#222" font-family="sans-serif">SAMPLE／テスト用イラスト</text></svg></div>
+  <p>○○株式会社様のオフィスエントランスに、彩りと心地よさを添えるフェイクグリーンを納品しました。（ダミー文）<br>
+  <a href="#">▶ 納品事例をもっと見る</a></p>
+
+  <h3>ご注文の流れ</h3>
+  <ol class="flow">
+    <li><b>ご相談のお申込み</b><br>下のボタンからお申込みください。設置場所の写真・サイズ・ご予算の目安をお知らせください。</li>
+    <li><b>ヒアリング・ご提案</b><br>内容を確認のうえ、イメージ画像とお見積書をお送りします。</li>
+    <li><b>ご注文確定・お支払い</b><br>内容にご納得いただいてから、お見積り金額専用のご購入ページをご案内します。</li>
+    <li><b>制作</b><br>ご入金確認後、制作に入ります。</li>
+    <li><b>発送・納品</b><br>全国へお届けします。県内は、お持ち込み・設置のご相談も可能です。</li>
+  </ol>
+
+  <h3>価格・納期の目安</h3>
+  <table>
+    <tr><th>ウォールグリーン</th><td>○○円〜</td></tr>
+    <tr><th>置き型</th><td>○○円〜</td></tr>
+    <tr><th>最低ご注文金額</th><td>○○円（税込）</td></tr>
+    <tr><th>制作期間</th><td>ご入金確認後 約○週間</td></tr>
+    <tr><th>修正対応</th><td>ご提案内容の修正は○回まで</td></tr>
+  </table>
+  <p class="small">※数値はすべてテスト用の仮表記です。<br>※オーダー品のため、制作開始後のキャンセル・返品はお受けできません。</p>
+
+  <div class="box">
+    <b>【お支払いは発生しません】</b>
+    下のフォームは、ご相談・お見積り依頼のお申込み用です。お申込み後、自動返信メールをお送りします。メールに、設置場所の写真とサイズをご返信ください。（テスト用の仮文面）
+  </div>
+
+  <section id="form" aria-labelledby="ft">
+    <h3 id="ft">ご相談・お見積り依頼フォーム（テスト）</h3>
+    <p class="small">入力内容は送信されません。「確認する」を押すと、下に入力内容が表示されます。</p>
+    <form id="fm" novalidate>
+      <div class="f chk"><span class="lg">ご依頼の種類<span class="req">必須</span></span>
+        <label><input type="radio" name="kind" value="個人" checked> 個人</label>
+        <label><input type="radio" name="kind" value="法人・店舗"> 法人・店舗</label></div>
+      <div class="f2">
+        <div class="f"><label for="nm">お名前<span class="req">必須</span></label><input type="text" id="nm"></div>
+        <div class="f"><label for="co">会社名・店舗名</label><input type="text" id="co"></div></div>
+      <div class="f2">
+        <div class="f"><label for="em">メールアドレス<span class="req">必須</span></label><input type="email" id="em"></div>
+        <div class="f"><label for="tl">電話番号</label><input type="tel" id="tl"></div></div>
+      <div class="f"><label for="us">用途・設置場所<span class="req">必須</span></label>
+        <select id="us"><option value="">選択してください</option><option>店舗の壁・棚</option><option>オフィス・受付</option><option>自宅</option><option>ギフト・記念品</option><option>その他</option></select></div>
+      <div class="f"><span class="lg">設置場所のサイズ</span>
+        <div class="sz">幅 <input type="number" id="w" min="1"> cm × 高さ <input type="number" id="h" min="1"> cm</div>
+        <p class="small" style="margin:4px 0 0">分からなければ空欄で構いません。</p></div>
+      <div class="f"><label for="ph">設置場所の写真</label><input type="file" id="ph" accept="image/*" multiple>
+        <p class="small" style="margin:4px 0 0">テストのため、ファイルは送信されません。</p></div>
+      <div class="f2">
+        <div class="f"><label for="bd">ご予算の目安</label><select id="bd"><option value="">未定</option><option>〜1万円</option><option>1〜3万円</option><option>3〜10万円</option><option>10万円以上</option></select></div>
+        <div class="f"><label for="du">希望納期</label><input type="text" id="du" placeholder="例：11月末まで"></div></div>
+      <div class="f"><label for="ms">ご希望のイメージ・ご相談内容</label><textarea id="ms" placeholder="色味、花か葉物か、参考にしたい雰囲気など"></textarea></div>
+      <div class="f chk"><span class="lg">書類の発行</span>
+        <label><input type="checkbox" name="doc" value="見積書"> 見積書</label>
+        <label><input type="checkbox" name="doc" value="請求書"> 請求書</label>
+        <label><input type="checkbox" name="doc" value="領収書"> 領収書</label></div>
+      <button type="submit" class="btn" style="border:0;cursor:pointer;font:inherit;font-weight:700;width:100%">入力内容を確認する（テスト）</button>
+      <p class="err" id="er" role="alert"></p>
+    </form>
+    <div id="pv" aria-live="polite"><b>入力内容の確認（テスト表示・未送信）</b><dl id="pl"></dl></div>
+    <p class="small" style="text-align:center;margin-top:16px">お電話：000-0000-0000（10:00〜17:00／火・水曜定休）</p>
+  </section>
+
+  <p class="small" style="text-align:center">》》》法人さまへの大型フェイクグリーン、各種ご相談もお待ちしております</p>
+
+  <p class="back"><a href="#">一覧に戻る</a></p>
+</main>
+
+<footer>
+  <nav>
+    <a href="#">お問い合わせ</a>
+    <a href="#">特定商取引法に基づく表示</a>
+    <a href="#">利用規約</a>
+    <a href="#">プライバシーポリシー</a>
+  </nav>
+  <div>【テスト用ページ】記載内容はすべて仮のものです ／ KAKURAS</div>
+</footer>
+<script>
+document.getElementById('fm').addEventListener('submit',function(e){
+ e.preventDefault();var g=function(i){return document.getElementById(i).value.trim()},m=[];
+ if(!g('nm'))m.push('お名前');if(!g('em'))m.push('メールアドレス');if(!g('us'))m.push('用途・設置場所');
+ var er=document.getElementById('er');if(m.length){er.textContent='未入力の項目があります：'+m.join('、');return}er.textContent='';
+ var docs=[].map.call(document.querySelectorAll('input[name=doc]:checked'),function(c){return c.value}).join('、');
+ var n=document.getElementById('ph').files.length,w=g('w'),h=g('h');
+ var r=[['依頼の種類',document.querySelector('input[name=kind]:checked').value],['お名前',g('nm')],['会社名・店舗名',g('co')||'（未入力）'],['メール',g('em')],['電話',g('tl')||'（未入力）'],['用途・設置場所',g('us')],['サイズ',(w&&h)?'幅'+w+'cm × 高さ'+h+'cm':'（未入力）'],['写真',n?n+'枚選択（送信されません）':'（なし）'],['予算',g('bd')||'未定'],['希望納期',g('du')||'（未入力）'],['ご相談内容',g('ms')||'（未入力）'],['書類',docs||'（なし）']];
+ var dl=document.getElementById('pl');dl.textContent='';
+ r.forEach(function(x){var a=document.createElement('dt'),b=document.createElement('dd');a.textContent=x[0];b.textContent=x[1];dl.appendChild(a);dl.appendChild(b)});
+ var pv=document.getElementById('pv');pv.classList.add('on');pv.scrollIntoView({behavior:'smooth',block:'nearest'});
+});
+</script>
+</body>
+</html>
